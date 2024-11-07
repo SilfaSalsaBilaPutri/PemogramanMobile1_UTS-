@@ -7,6 +7,8 @@
 
 ![Story Board, Mock Up, UI-02](https://github.com/user-attachments/assets/c9acaefe-2cca-4032-92ac-6f33e32f1bf8)
 
+![Story Board, Mock Up, UI-03](https://github.com/user-attachments/assets/2dd6bdca-7ca0-4332-97a6-cbef2899e05d)
+
 ![Story Board, Mock Up, UI-04](https://github.com/user-attachments/assets/1ce502f3-f69c-4b4c-8a1e-0ff18d89c5d2)
 
 ![Story Board, Mock Up, UI-05](https://github.com/user-attachments/assets/113363c8-d2b8-4a1e-b128-f43f37b8bf79)
