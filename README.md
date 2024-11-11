@@ -128,7 +128,7 @@
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-# 4. Activity_sign_up.xml
+# 3. Activity_sign_up.xml
 
 ![Story Board, Mock Up, UI-05](https://github.com/user-attachments/assets/113363c8-d2b8-4a1e-b128-f43f37b8bf79)
 
