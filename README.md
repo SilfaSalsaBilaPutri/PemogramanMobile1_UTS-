@@ -5,7 +5,7 @@
 
 # 1. Actifity_main.xml
 
-![Story Board, Mock Up, UI-02](https://github.com/user-attachments/assets/c9acaefe-2cca-4032-92ac-6f33e32f1bf8)
+![1](https://github.com/user-attachments/assets/7b298965-3d80-4531-88c5-e971dc2ca570)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -32,7 +32,7 @@
 
 # 2. Actifity_login_sign_up.xml
 
-![Story Board, Mock Up, UI-04](https://github.com/user-attachments/assets/1ce502f3-f69c-4b4c-8a1e-0ff18d89c5d2)
+![3](https://github.com/user-attachments/assets/9548ed03-439c-455e-b695-60ac041f6b14)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -130,7 +130,7 @@
 
 # 3. Activity_sign_up.xml
 
-![Story Board, Mock Up, UI-05](https://github.com/user-attachments/assets/113363c8-d2b8-4a1e-b128-f43f37b8bf79)
+![4](https://github.com/user-attachments/assets/a8caaeed-6b58-4c58-be1c-bc2d2d575001)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -264,8 +264,7 @@
 
 # 4. Activity_login.xml
 
-![Story Board, Mock Up, UI-06](https://github.com/user-attachments/assets/24d0c9a9-a601-42b3-b7b8-d748aa4c272b)
-
+![5](https://github.com/user-attachments/assets/782de48a-30d2-4264-a692-7bd93860970a)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -362,7 +361,7 @@
 
 # 5. Activity_menu.xml
 
-![Story Board, Mock Up, UI-07](https://github.com/user-attachments/assets/d4055dc1-c922-49fd-a8c3-ec2f5da8c3c5)
+![6](https://github.com/user-attachments/assets/529d8541-7921-45dc-ba88-6a4dad324106)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -549,7 +548,7 @@
 
 # 6. Activity_film1.xml
 
-![Story Board, Mock Up, UI-08](https://github.com/user-attachments/assets/9c90be89-c238-4da3-a28e-488c4ea57c9a)
+![7](https://github.com/user-attachments/assets/8bfbde0a-8117-4bf0-81c0-419cad4cd2f0)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -731,9 +730,9 @@
 
 # 7. Activity_pemesanan.xml
 
-![Story Board, Mock Up, UI-09](https://github.com/user-attachments/assets/75a68774-875c-4857-ba1d-6a198b598842)
+![8](https://github.com/user-attachments/assets/28ff5ef2-8bbe-4a6d-bb92-a257cfb6e846)
 
-![Story Board, Mock Up, UI-10](https://github.com/user-attachments/assets/f3003124-8c00-4ecc-924f-dae00195a329)
+![9](https://github.com/user-attachments/assets/1b415977-da3e-44d5-bac7-329706806bb9)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -977,7 +976,7 @@
 
 # 8. Activity_tiket_saya.xml
 
-![Story Board, Mock Up, UI-11](https://github.com/user-attachments/assets/72fd7971-c117-406b-b213-1247c751b907)
+![10](https://github.com/user-attachments/assets/fc06ed09-554f-4f8b-82aa-1861796d7311)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
