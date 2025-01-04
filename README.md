@@ -3,9 +3,16 @@
 | NIM: | 312310607 |
 | Kelas: | TI.23.A6 |
 
+![Story Board, Mock Up, UI-01](https://github.com/user-attachments/assets/9b86e802-3da5-4100-b40f-bb640964132b)
+
+![Story Board, Mock Up, UI-02](https://github.com/user-attachments/assets/8fc4ef2a-a75f-4289-b410-8b80163821eb)
+
+![Story Board, Mock Up, UI-03](https://github.com/user-attachments/assets/0d80dda7-df63-44f0-93eb-24989347dc2b)
+
+
 # 1. Actifity_main.xml
 
-![1](https://github.com/user-attachments/assets/7b298965-3d80-4531-88c5-e971dc2ca570)
+![3](https://github.com/user-attachments/assets/be2f3290-aed8-4859-9626-e3abd36206ef)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -32,7 +39,7 @@
 
 # 2. Actifity_login_sign_up.xml
 
-![3](https://github.com/user-attachments/assets/9548ed03-439c-455e-b695-60ac041f6b14)
+![4](https://github.com/user-attachments/assets/f72b6fd7-6a29-4dae-8ae1-45073a4566ef)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -130,7 +137,7 @@
 
 # 3. Activity_sign_up.xml
 
-![4](https://github.com/user-attachments/assets/a8caaeed-6b58-4c58-be1c-bc2d2d575001)
+![5](https://github.com/user-attachments/assets/53e19b0e-9b8a-4bd2-8045-dd38a1dcafee)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -264,7 +271,7 @@
 
 # 4. Activity_login.xml
 
-![5](https://github.com/user-attachments/assets/782de48a-30d2-4264-a692-7bd93860970a)
+![6](https://github.com/user-attachments/assets/95a0de76-964f-4302-b0c4-112d90fa944c)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -361,7 +368,7 @@
 
 # 5. Activity_menu.xml
 
-![6](https://github.com/user-attachments/assets/529d8541-7921-45dc-ba88-6a4dad324106)
+![7](https://github.com/user-attachments/assets/a63eeca2-54aa-4d7e-84c4-f9986489a9f6)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -548,7 +555,7 @@
 
 # 6. Activity_film1.xml
 
-![7](https://github.com/user-attachments/assets/8bfbde0a-8117-4bf0-81c0-419cad4cd2f0)
+![8](https://github.com/user-attachments/assets/531af11d-2056-43e8-9b41-52ebf7fd46b0)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -728,11 +735,560 @@
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-# 7. Activity_pemesanan.xml
+# 7. Activity_film2.xml
 
-![8](https://github.com/user-attachments/assets/28ff5ef2-8bbe-4a6d-bb92-a257cfb6e846)
+![Kuning dan Biru Dinamis Jasa Bersih-Bersih Rumah Instagram Post](https://github.com/user-attachments/assets/877b305b-37fd-48f1-a850-ef613a08c251)
 
-![9](https://github.com/user-attachments/assets/1b415977-da3e-44d5-bac7-329706806bb9)
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filem2"
+    android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="NOW PLAYING"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="723dp"
+        android:layout_height="829dp"
+        android:layout_marginTop="5dp"
+        android:scrollbarSize="30dp"
+        android:src="@drawable/bpink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-156dp" />
+
+    <ImageView
+        android:id="@+id/filem2"
+        android:layout_width="191dp"
+        android:layout_height="221dp"
+        android:src="@drawable/perewangan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="101dp"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintEnd_toStartOf="@id/filmName2"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/filmName2"
+        android:layout_width="191dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="PEREWANGAN"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/filem2"
+        app:layout_constraintTop_toTopOf="@id/filem2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
+        android:text="⭐⭐⭐⭐⭐"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@id/filmName2"
+        app:layout_constraintTop_toBottomOf="@id/filmName2"
+        android:layout_marginTop="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="145dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="Misteri, Horor"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@id/filmName2"
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="24dp"
+        android:layout_height="34dp"
+        android:src="@drawable/timer"
+        app:layout_constraintStart_toStartOf="@id/filmName2"
+        app:layout_constraintTop_toBottomOf="@id/text4"
+        android:layout_marginTop="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="1 Jam 49 Menit"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@id/gambar2"
+        app:layout_constraintTop_toTopOf="@id/gambar2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:src="@drawable/bell"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintStart_toEndOf="@id/text1"
+        android:layout_marginStart="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar4"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="320dp"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="22dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="388dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Bahasa Indonesia – Berbagai teror dan peristiwa janggal menghantui hidup Maya sekeluarga. Maya mencurigai Pakde dan Budenya yang selalu mengincar harta keluarga Maya satu-satunya yaitu rumah dan tanah milik Sudarsih (ibu Maya) yang didapat dari kakek mereka. Namun ada kekuatan yang lebih besar dan jahat. Wujud dari keserakahan manusia, makhluk yang membantu mencapai kejayaan materi dengan bayaran nyawa orang-orang yang dikasihinya. Kini, makhluk tersebut mengincar seluruh keluarga Maya"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filem2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/buytiket"
+        android:layout_width="393dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bb_button"
+        android:contentDescription="pemesanan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="BUY TIKET"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buytiket"
+        tools:layout_editor_absoluteY="652dp"
+        app:layout_constraintTop_toBottomOf="@id/text6"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+# 8. Activity_film3.xml
+
+![Kuning dan Biru Dinamis Jasa Bersih-Bersih Rumah Instagram Post (1)](https://github.com/user-attachments/assets/5519e54c-748a-4724-af8e-dc5336876b15)
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filem3"
+    android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="NOW PLAYING"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="723dp"
+        android:layout_height="829dp"
+        android:layout_marginTop="5dp"
+        android:scrollbarSize="30dp"
+        android:src="@drawable/bpink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-156dp" />
+
+    <ImageView
+        android:id="@+id/filem3"
+        android:layout_width="191dp"
+        android:layout_height="221dp"
+        android:src="@drawable/venom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="101dp"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintEnd_toStartOf="@id/text2"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/filmName3"
+        android:layout_width="191dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="VENOM: THE LAST DANCE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/filem3"
+        app:layout_constraintTop_toTopOf="@id/filem3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="136dp"
+        android:layout_height="36dp"
+        android:text="⭐⭐⭐⭐⭐"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@id/filmName3"
+        app:layout_constraintTop_toBottomOf="@id/filmName3"
+        android:layout_marginTop="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="221dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="Action Comedy, Adventure"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@id/filmName3"
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="24dp"
+        android:layout_height="34dp"
+        android:src="@drawable/timer"
+        app:layout_constraintStart_toStartOf="@id/filmName3"
+        app:layout_constraintTop_toBottomOf="@id/text4"
+        android:layout_marginTop="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="1 Jam 49 Menit"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@id/gambar2"
+        app:layout_constraintTop_toTopOf="@id/gambar2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:src="@drawable/bell"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintStart_toEndOf="@id/text1"
+        android:layout_marginStart="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambar4"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="320dp"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="22dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="372dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Eddie dan Venom kini sedang diburu. Dengan semakin dekatnya mereka, keduanya bersatu dan terpaksa mengambil keputusan berat. Apakah kali ini Eddie dan Venom akan berpisah?"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filem3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/buytiket"
+        android:layout_width="393dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bb_button"
+        android:contentDescription="pemesanan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/trocchi_regular"
+        android:text="BUY TIKET"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buytiket"
+        tools:layout_editor_absoluteY="652dp"
+        app:layout_constraintTop_toBottomOf="@id/text6"
+        android:layout_marginTop="40dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+# 9. Activity_film4.xml
+
+![Kuning dan Biru Dinamis Jasa Bersih-Bersih Rumah Instagram Post (2)](https://github.com/user-attachments/assets/f3f8d7c0-937f-4f62-80ac-f3ebc0a02e0b)
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filem4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bb">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="154dp"
+            android:layout_height="36dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="NOW PLAYING"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="723dp"
+            android:layout_height="829dp"
+            android:layout_marginTop="5dp"
+            android:scrollbarSize="30dp"
+            android:src="@drawable/bpink"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-156dp" />
+
+        <ImageView
+            android:id="@+id/filem1"
+            android:layout_width="191dp"
+            android:layout_height="221dp"
+            android:src="@drawable/loan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="101dp"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            app:layout_constraintEnd_toStartOf="@id/text2"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/filmName4"
+            android:layout_width="191dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="HOME SWEET LOAN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toEndOf="@id/filem1"
+            app:layout_constraintTop_toTopOf="@id/filem1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:text="⭐⭐⭐⭐"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/filmName4"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="Drama Keluarga"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/text3"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar2"
+            android:layout_width="24dp"
+            android:layout_height="34dp"
+            android:src="@drawable/timer"
+            app:layout_constraintStart_toStartOf="@id/filmName4"
+            app:layout_constraintTop_toBottomOf="@id/text4"
+            android:layout_marginTop="1dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="1 Jam 52 Menit"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@id/gambar2"
+            app:layout_constraintTop_toTopOf="@id/gambar2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar3"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:src="@drawable/bell"
+            tools:layout_editor_absoluteX="334dp"
+            tools:layout_editor_absoluteY="16dp"
+            app:layout_constraintStart_toEndOf="@id/text1"
+            android:layout_marginStart="70dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/gambar4"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="320dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="22dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="372dp"
+            android:layout_height="419dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/times_new_roman"
+            android:text="Bahasa Indonesia – Kaluna, pegawai bagian umum, bermimpi membeli rumah demi keluar dari rumah dengan tiga kepala keluarga, Ayah dan kedua kakaknya. Namun, gajinya yang tak pernah menyentuh dua digit membuatnya serasa bermimpi untuk memiliki rumah idaman yang minimal... nyerempet Jakarta. Dengan modal usaha ngirit, kerja sampingan sebagai model bibir, dan pinjaman kantor, Kaluna bersama tiga sahabatnya berjuang menemukan rumah yang sesuai. Di tengah segala perjuangannya, Kaluna tiba-tiba harus dihadapkan pada keputusan finansial keluarga yang sulit. Kaluna dihadapkan pada pilihan antara memperjuangkan rumah atau keluarganya."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/filem1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/buytiket"
+            android:layout_width="393dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bb_button"
+            android:contentDescription="pemesanan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text6"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="123dp"
+            android:layout_height="34dp"
+            android:fontFamily="@font/trocchi_regular"
+            android:text="BUY TIKET"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/buytiket"
+            app:layout_constraintTop_toBottomOf="@id/text6"
+            android:layout_marginTop="40dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+```
+
+# 10. Activity_pemesanan.xml
+
+![9](https://github.com/user-attachments/assets/9a1d3473-d792-4592-8097-803496a62035)
+
+![10](https://github.com/user-attachments/assets/bb059f07-05b8-4ab1-bad1-71f4b5d485e2)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -974,9 +1530,9 @@
 </ScrollView>
 ```
 
-# 8. Activity_tiket_saya.xml
+# 11. Activity_tiket_saya.xml
 
-![10](https://github.com/user-attachments/assets/fc06ed09-554f-4f8b-82aa-1861796d7311)
+![11](https://github.com/user-attachments/assets/9aee9997-accb-4178-9ecf-891e6bbb39bd)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
